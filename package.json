@@ -1,0 +1,25 @@
+{
+  "name": "serialport_test",
+  "version": "1.0.0",
+  "description": "Test Serial Ports witha Transmitter and Receiver program",
+  "author": {
+    "name": "Roger Hardiman",
+    "email": "opensource@rjh.org.uk"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogerhardiman/serialport_test.git"
+  },
+  "dependencies": {
+    "serialport": "^4.0.0",
+    "commander": "^2.9.0"
+  },
+  "keywords": [
+    "serialport",
+    "serial",
+    "port",
+    "test",
+    "check"
+  ]
+}
