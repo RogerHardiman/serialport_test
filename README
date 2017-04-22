@@ -3,15 +3,19 @@ Tests a serial port and cabling using
   b) another serial port receiving and displaying the data
 
 Usage - Transmitter
-  node serialport_test -p /dev/serial -baud 9600 -t
+  node serialport_test --port /dev/serial --baud 9600 --transmitter
 
 Usage - Receiver 
-  node serialport_test -p /dev/serial -baud 9600 -r
+  node serialport_test --port /dev/serial --baud 9600 --receiver
 
 
 Other command line arguments
 
-  -h       help
-  -l       get list of serial ports on the computer
-  --baud   set baud rate
+  -h             help
+  -l             get list of serial ports on the computer
+  --port         set serial port
+  --baud         set baud rate
+  --parity       set parity to none, even or odd
+  --transmitter  program acts as transmitter
+  --receiver     program acts as receiver
 
