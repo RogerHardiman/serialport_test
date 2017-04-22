@@ -1,0 +1,17 @@
+Tests a serial port and cabling using
+  a) one serial port transmitting data
+  b) another serial port receiving and displaying the data
+
+Usage - Transmitter
+  node serialport_test -p /dev/serial -baud 9600 -t
+
+Usage - Receiver 
+  node serialport_test -p /dev/serial -baud 9600 -r
+
+
+Other command line arguments
+
+  -h       help
+  -l       get list of serial ports on the computer
+  --baud   set baud rate
+
